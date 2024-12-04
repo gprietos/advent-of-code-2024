@@ -1,4 +1,4 @@
-# # Day 4: Ceres Search
+# Day 4: Ceres Search
 
 ## Part 1
 
