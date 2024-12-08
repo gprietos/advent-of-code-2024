@@ -64,11 +64,11 @@ if __name__ == '__main__':
     init_t = time.perf_counter()
     part_1_solution = part_1(updates,grouped_rules)
     elapsed_time = time.perf_counter() - init_t
-    print(f'Part 1 Solution: {part_1_solution}. Time taken: {elapsed_time:.6f} ms\n')
+    print(f'Part 1 Solution: {part_1_solution}. Time taken: {elapsed_time:.6f} s\n')
     
 
     init_t = time.perf_counter()
     part_2_solution = part_2(updates, grouped_rules)
-    elapsed = time.perf_counter() - init_t
-    print(f'Part 2 Solution: {part_2_solution}. Time taken: {elapsed_time:.6f} ms\n')
+    elapsed_time = time.perf_counter() - init_t
+    print(f'Part 2 Solution: {part_2_solution}. Time taken: {elapsed_time:.6f} s\n')
     
