@@ -99,6 +99,7 @@ After updating your model, it turns out that an antinode occurs at **any grid po
 So, these three T-frequency antennas now create many antinodes:
 
 |T|.|.|.|.|#|.|.|.|.|
+|-|-|-|-|-|-|-|-|-|-|
 |.|.|.|T|.|.|.|.|.|.|
 |.|T|.|.|.|.|#|.|.|.|
 |.|.|.|.|.|.|.|.|.|#|
@@ -114,6 +115,7 @@ In fact, the three T-frequency antennas are all exactly in line with two antenna
 The original example now has **34** antinodes, including the antinodes that appear on every antenna:
 
 |#|#|.|.|.|.|#|.|.|.|.|#|
+|-|-|-|-|-|-|-|-|-|-|-|-|
 |.|#|.|#|.|.|.|.|0|.|.|.|
 |.|.|#|.|#|0|.|.|.|.|#|.|
 |.|.|#|#|.|.|.|0|.|.|.|.|
