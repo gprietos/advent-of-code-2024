@@ -80,7 +80,7 @@ The reindeer spends a few minutes reviewing your hiking trail map before realizi
 The paper describes a second way to measure a trailhead called its **rating**. A trailhead's rating is the **number of distinct hiking trails** which begin at that trailhead. For example:
 
 |.|.|.|.|.|0|.|
-|-|-|-|-|-|-|-|-|
+|-|-|-|-|-|-|-|
 |.|.|4|3|2|1|.|
 |.|.|5|.|.|2|.|
 |.|.|6|5|4|3|.|
@@ -90,14 +90,32 @@ The paper describes a second way to measure a trailhead called its **rating**. A
 
 The above map has a single trailhead; its rating is 3 because there are exactly three distinct hiking trails which begin at that position:
 
-|.|.|.|.|.|0|.|   |.|.|.|.|.|0|.|   |.|.|.|.|.|0|.|
-|-|-|-|-|-|-|-|   |-|-|-|-|-|-|-|   |-|-|-|-|-|-|-|
-|.|.|4|3|2|1|.|   |.|.|.|.|.|1|.|   |.|.|.|.|.|1|.|
-|.|.|5|.|.|.|.|   |.|.|.|.|.|2|.|   |.|.|.|.|.|2|.|
-|.|.|6|.|.|.|.|   |.|.|6|5|4|3|.|   |.|.|.|.|.|3|.|
-|.|.|7|.|.|.|.|   |.|.|7|.|.|.|.|   |.|.|.|.|.|4|.|
-|.|.|8|.|.|.|.|   |.|.|8|.|.|.|.|   |.|.|8|7|6|5|.|
-|.|.|9|.|.|.|.|   |.|.|9|.|.|.|.|   |.|.|9|.|.|.|.|
+|.|.|.|.|.|0|.|
+|-|-|-|-|-|-|-|
+|.|.|4|3|2|1|.|
+|.|.|5|.|.|.|.|
+|.|.|6|.|.|.|.|
+|.|.|7|.|.|.|.|
+|.|.|8|.|.|.|.|
+|.|.|9|.|.|.|.|
+
+|.|.|.|.|.|0|.|
+|-|-|-|-|-|-|-|
+|.|.|.|.|.|1|.|
+|.|.|.|.|.|2|.|
+|.|.|6|5|4|3|.|
+|.|.|7|.|.|.|.|
+|.|.|8|.|.|.|.|
+|.|.|9|.|.|.|.|
+
+|.|.|.|.|.|0|.|
+|-|-|-|-|-|-|-|
+|.|.|.|.|.|1|.|
+|.|.|.|.|.|2|.|
+|.|.|.|.|.|3|.|
+|.|.|.|.|.|4|.|
+|.|.|8|7|6|5|.|
+|.|.|9|.|.|.|.|
 
 Here is a map containing a single trailhead with rating 13:
 
@@ -135,4 +153,3 @@ Here's the larger example from before:
 Considering its trailheads in reading order, they have ratings of 20, 24, 10, 4, 1, 4, 5, 8, and 5. The sum of all trailhead ratings in this larger example topographic map is **81**.
 
 You're not sure how, but the reindeer seems to have crafted some tiny flags out of toothpicks and bits of paper and is using them to mark trailheads on your topographic map. **What is the sum of the ratings of all trailheads?**
-
